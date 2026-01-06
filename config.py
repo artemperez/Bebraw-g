@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Конфигурация бота
-BOT_TOKEN = os.getenv('8400770070:AAFahEEaffeqcI0kcMwq5QVlv0Aur1GdbA8')
+BOT_TOKEN = os.getenv( '8400770070:AAFahEEaffeqcI0kcMwq5QVlv0Aur1GdbA8')
 ADMIN_IDS = list(map(int, os.getenv('ADMIN_IDS', '').split(','))) if os.getenv('8050595279') else []
 
 # Список приваток (ваши ссылки)
